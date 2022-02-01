@@ -1,0 +1,27 @@
+GET http://localhost:3000/tags
+
+###
+
+POST http://localhost:3000/tags
+Content-Type: application/json
+
+{
+    "title": "Christmas"
+}
+
+###
+
+GET http://localhost:3000/tags/61f9949c2dd9768a5a205f09
+
+###
+
+DELETE http://localhost:3000/tags/61f9949c2dd9768a5a205f09
+
+###
+
+POST http://localhost:3000/tags/multiple
+Content-Type:  application/json
+
+{
+    "title": "Soup, Main Course, Tofu, Pasta, Dessert, Seasonal"
+}

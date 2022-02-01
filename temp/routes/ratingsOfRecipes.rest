@@ -1,0 +1,5 @@
+POST http://localhost:3000/recipes/61f99c707cff9d81a2ab2d0a/rate/4
+
+###
+
+DELETE http://localhost:3000/recipes/61f99c707cff9d81a2ab2d0a/rate

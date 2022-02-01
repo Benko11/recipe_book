@@ -1,0 +1,37 @@
+GET http://localhost:3000/recipes
+
+###
+
+POST http://localhost:3000/recipes
+Content-Type: application/json
+
+{
+    "name": "Potato-Cheese Soup",
+    "tags": ["61f98fe82bbcdfd75556f9a6"],
+    "ingredients": [
+        "5 larger potatoes",
+        "100 g cheese",
+        "1 packet of powdered broth",
+        "300 ml milk",
+        "2 tbsp of butter",
+        "30 g flour",
+        "salt",
+        "ground pepper",
+        "marjoram",
+        "parsley"
+    ],
+    "instructions": [
+      { "text": "Turn flour and butter into a roux, add cold water, stir well, and bring to a boil." },
+      { "text": "Add sliced and diced potatoes, salt, peppier, broth mixed in lukewarm water and cook till potatoes go soft."},
+      { "text": "Filter the soup and press the potatoes with a fork, put them back in the soup, add milk, bring to a boil."},
+      { "text": "Turn off the heat, add grated cheese, marjoram and chopped parsley."}
+    ]
+}
+
+###
+
+GET http://localhost:3000/recipes/61f986169f1f2b9f64b00868
+
+###
+
+DELETE http://localhost:3000/recipes/61f99c707cff9d81a2ab2d0a
